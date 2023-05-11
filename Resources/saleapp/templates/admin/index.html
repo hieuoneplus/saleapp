@@ -1,0 +1,7 @@
+{% extends 'admin/base.html' %}
+
+{% block body %}
+{% if current_user.is_authenticated %}
+<h1>WELCOME {{ current_user.name }} TO ADMINISTRATION WEBSITE!!</h1>
+{% endif %}
+{% endblock %}
