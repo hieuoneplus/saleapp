@@ -9,7 +9,7 @@ import model
 import cloudinary.uploader
 
 
-app.config['IMAGE'] = 'C:\se2022-8.3\Resources\saleapp\static'
+app.config['IMAGE'] = 'C:\Users\nshd1\OneDrive\Documents\code\webdemo\Resources\saleapp\static'
 
 @app.route("/")
 def home():
